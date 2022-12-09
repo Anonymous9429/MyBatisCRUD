@@ -16,7 +16,7 @@
     <tr><td>Genre:</td><td><input type="text" name="genre"/></td></tr>
     <tr><td>Writer:</td><td><input type="text" name="writer"/></td></tr>
     <tr><td>Composer:</td><td><input type="text" name="composer"/></td></tr>
-    <tr><td>releaseDate:</td><td><input type="text" name="release"/></td></tr>
+    <tr><td>releaseDate:</td><td><input type="text" name="releasedate"/></td></tr>
     <tr><td>label:</td><td><input type="text" name="label"/></td></tr>
 
 </table>

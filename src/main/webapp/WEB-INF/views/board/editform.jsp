@@ -24,7 +24,7 @@
      <tr><td>Genre:</td><td><form:input path="genre" /></td></tr>
      <tr><td>Writer:</td><td><form:input path="writer" /></td></tr>
      <tr><td>Composer:</td><td><form:input path="composer" /></td></tr>
-     <tr><td>releaseDate:</td><td><form:input path="release" /></td></tr>
+     <tr><td>releaseDate:</td><td><form:input path="releasedate" /></td></tr>
      <tr><td>label:</td><td><form:input path="label" /></td></tr>
 
 

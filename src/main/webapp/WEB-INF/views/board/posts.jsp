@@ -7,19 +7,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>음악 공유 플레이리스트</title>
 <style>
-#list {
+#posts {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-#list td, #list th {
+#posts td, #posts th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align:center;
 }
-#list tr:nth-child(even){background-color: #f2f2f2;}
-#list tr:hover {background-color: #ddd;}
-#list th {
+#posts tr:nth-child(even){background-color: #f2f2f2;}
+#posts tr:hover {background-color: #ddd;}
+#posts th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
@@ -45,7 +45,7 @@
 	<th>Genre</th>
 	<th>Writer</th>
 	<th>Composer</th>
-	<th>releaseDate</th>
+	<th>releasedate</th>
 	<th>Label</th>
 	<th>Edit</th>
 	<th>Delete</th>
@@ -58,7 +58,7 @@
 		<td>${u.genre}</td>
 		<td>${u.writer}</td>
 		<td>${u.composer}</td>
-		<td>${u.release}</td>
+		<td>${u.releasedate}</td>
 		<td>${u.label}</td>
 		<td><a href="editform/${u.seq}">Edit</a></td>
 		<td><a href="javascript:delete_ok('${u.seq}')">Delete</a></td>

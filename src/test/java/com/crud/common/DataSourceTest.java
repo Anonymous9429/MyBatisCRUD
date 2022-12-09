@@ -13,7 +13,7 @@ public class DataSourceTest {
     @Test
     public void testConnection(){
         ApplicationContext ctx = new FileSystemXmlApplicationContext("file:src/main/webapp/WEB-INF/applicationContext.xml");
-        DataSource ds = (DataSource)  ctx.getBean("datSource");
+        DataSource ds = (DataSource) ctx.getBean("dataSource");
         try{
             Connection con = ds.getConnection();
             System.out.println("DB연결 성공!!!");

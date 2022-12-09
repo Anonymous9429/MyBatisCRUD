@@ -9,7 +9,7 @@ public class BoardVO {
 	private String genre;
 	private String writer;
 	private String composer;
-	private String release;
+	private String releasedate;
 	private String label;
 	private int cnt;
 	
@@ -51,11 +51,11 @@ public class BoardVO {
 	public void setComposer(String composer){
 		this.composer = composer;
 	}
-	public String getRelease(){
-		return release;
+	public String getReleasedate(){
+		return releasedate;
 	}
-	public void setRelease(String release){
-		this.release = release;
+	public void setReleasedate(String releasedate){
+		this.releasedate = releasedate;
 	}
 	public String getLabel(){
 		return label;
